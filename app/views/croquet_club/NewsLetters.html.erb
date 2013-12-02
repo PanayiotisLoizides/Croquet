@@ -1,0 +1,20 @@
+<h1>News Letters</h1>
+<table id="newsletter">
+    <thead>
+        <tr>
+          <th>Title</th>
+          <th>Date</th>
+        </tr>
+    </thead>
+  <tbody>
+  <!-- Function to group the newsletter by year -->
+    <% @newsletters = Newsletter.group(:date) %>
+    <!-- Function to read the newsletters from database -->
+    <% @newsletters.each do |newsletter| %>
+        <tr>
+          <td><%= link_to newsletter.title, newsletter.newsletter_url %></td>
+          <td><%= newsletter.date %></td>
+        </tr>
+    <% end %>
+  </tbody>
+</table>

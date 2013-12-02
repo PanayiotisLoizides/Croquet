@@ -1,0 +1,22 @@
+<h1><%= Date.current.year %> Programme </h1>
+<br>
+
+<table id="programme">
+    <thead>
+        <tr>
+          <th>Title</th>
+          <th>Date</th>
+          <th>Description</th>
+        </tr>
+    </thead>
+  <tbody>
+    <!-- Function to read the newsletters from database -->
+    <% @programme.each do |programme| %>
+        <tr>
+          <td><%= link_to programme.title %></td>
+          <td><%= programme.date %></td>
+          <td><%= programme.description %></td>
+        </tr>
+    <% end %>
+  </tbody>
+</table>

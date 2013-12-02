@@ -1,0 +1,55 @@
+// Place all the styles related to the CroquetClub controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background:-webkit-gradient(linear, 80% 20%, 13% 21%, from(#89E300), to(#FFFFFF));
+  font-size: 14pt;
+}
+
+table {
+  border-collapse:collapse;
+  border:1px solid #505050;
+}
+
+table td {
+  border:1px solid #505050;
+}
+
+table th {
+  background: #FFCC99; 
+}
+
+img {
+  opacity:1.0;
+  filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#links td { 
+  text-align: center; 
+  vertical-align: middle; 
+}
+
+footer {
+  font-size: 10pt;
+}
+
+.notice {
+  text-align: right; 
+}
+
+.alert {
+  text-align: right; 
+}
+
+  
+
+
+
+
+

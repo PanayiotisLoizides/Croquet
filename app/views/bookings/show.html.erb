@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Lawn:</strong>
+  <%= @booking.lawn_id %>
+</p>
+
+<p>
+  <strong>Time start:</strong>
+  <%= @booking.time_start %>
+</p>
+
+<p>
+  <strong>Time end:</strong>
+  <%= @booking.time_end %>
+</p>
+
+<%= link_to 'Edit', edit_booking_path(@booking) %> |
+<%= link_to 'Back', bookings_path %>

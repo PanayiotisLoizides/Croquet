@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  lawn_id: 1
+  time_start: 2013-12-02 13:02:14
+  time_end: 2013-12-02 13:02:14
+
+two:
+  lawn_id: 1
+  time_start: 2013-12-02 13:02:14
+  time_end: 2013-12-02 13:02:14

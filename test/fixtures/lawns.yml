@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  lawn_id: 1
+  title: MyString
+  availability: false
+
+two:
+  lawn_id: 1
+  title: MyString
+  availability: false

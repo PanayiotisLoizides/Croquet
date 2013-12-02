@@ -1,0 +1,20 @@
+#croquetheader h1 {
+    margin: 0em 0 0em 0;
+    padding-top:20px;
+    color: #343434;
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Orienta', sans-serif;
+    letter-spacing: 1px;
+    font-style: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#croquetheader p{
+  position: absolute; 
+	top: 0px;
+}
+
